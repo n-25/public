@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.news-text {
+  word-wrap: break-word;
+  color: #6c757d !important;
+}
+
+.news-body {
+  padding: 20px;
+  margin: 10px;
+  box-shadow: #b9b9b9 0px 0px 5px;
+  border-radius: 5px;
+  -webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
+  transform: scale(1);
+  
+  -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.news-body:hover {
+  -webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	transform: scale(1.05);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.slider {
+    width: 100%;
+    margin: 20px auto;
+}
+
+.slick-slide {
+  margin: 0px 7px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: 1.0;
+}
+
+.slick-active {
+  opacity: 1.0;
+}
+
+.slick-current {
+  opacity: 1;
+}
+
+.btn-f {
+  width: 20px;
+  height: 20px;
+  background-color: #4267b2;
+  border-color: #365899;
+  float: right;
+  padding: 2px 2px 0 6px;
+  font-size: 10px;
+  line-height: 1.0;
+  border-radius: 3px;
+}
+
+.Footer {
+  position: relative;
+  padding: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.4;
+  text-align: center;
+  color: #000000;
+  margin-top: 20px;
+  z-index: 0;
+}
+
+.Footer:hover {
+  color: #007bff;
+}
+
+.fadein {
+  opacity:0;
+
+}
