@@ -104,3 +104,41 @@ html, body {
   opacity:0;
 
 }
+
+.fixed-right-bottom {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 1030;
+  margin: 0 10px 10px 0;
+}
+
+.btn_all_pre {
+  display: block;
+  width: 229px;
+  height: 284px;
+  transition: 0.5s all;
+  cursor: pointer;
+  background: url(../images/banner/popup_altf42.png) 0 100% no-repeat;
+}
+
+.ad{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 1030;
+  margin: 0 10px 10px 0;
+}
+
+.ad-close{
+  position:absolute;
+  top:18px;
+  right:12px;
+  text-decoration:none;
+  color:#000;
+  padding: 2px;
+}
+
+.ad-close:hover{
+  color:#fff;
+}
