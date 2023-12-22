@@ -2,22 +2,22 @@
 /* CSS Document */
 
 /* Common */
-.line { float:left; width:430px; height:11px; background:url(../images/common/line_content.png) 0 50% no-repeat }
-.line2 { float:left; width:640px; height:11px; background:url(../images/common/line2_content.png) 0 50% no-repeat }
+.line { float:left; width:430px; height:11px; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Common/line_content.png) 0 50% no-repeat }
+.line2 { float:left; width:640px; height:11px; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Common/line2_content.png) 0 50% no-repeat }
 .brd { z-index:1; position:relative; padding:5px; border:1px solid #343434; -webkit-border-radius:6px; -moz-border-radius:6px; border-radius:6px; -webkit-box-shadow: #000 0 0 7px; -moz-box-shadow: #000 0 0 7px; box-shadow: #000 0 0 7px; behavior:url(../scripts/PIE.htc); background-color:#0C0C0C }
 .brd2 { z-index:1; position:relative; border:1px solid #3f3f3f; -webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px; behavior:url(../scripts/PIE.htc) } /* for input_txt */
 .brd3 { z-index:1; position:relative; border:1px solid #818181; -webkit-border-radius:4px; -moz-border-radius:4px; border-radius:4px; behavior:url(../scripts/PIE.htc) }
 .brd4 { z-index:1; position:relative; border:0px solid #FFF; -webkit-border-radius:8px; -moz-border-radius:8px; border-radius:8px; behavior:url(../scripts/PIE.htc) }
 
 /* TEXT */
-.h_page { width:97%; height:24px; margin:2px 0 0; padding:0 0 0 10px; background:url(../images/common/bu.gif) 1px 3px no-repeat; font-size:18px; font-weight:bold; color:#0CF }
-.h_content { width:97%; height:20px; margin:8px 0; padding:0 0 0 13px; background:url(../images/common/bu2.png) 1px -2px no-repeat; font-family:Verdana, Geneva, sans-serif; font-size:12px; font-weight:bold; color:#FFF }
+.h_page { width:97%; height:24px; margin:2px 0 0; padding:0 0 0 10px; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Common/bu.gif) 1px 3px no-repeat; font-size:18px; font-weight:bold; color:#0CF }
+.h_content { width:97%; height:20px; margin:8px 0; padding:0 0 0 13px; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Common/bu2.png) 1px -2px no-repeat; font-family:Verdana, Geneva, sans-serif; font-size:12px; font-weight:bold; color:#FFF }
 .common_blue { color:#00d8ff } /*sub title*/
 
 /* Form */
 .input_txt2 { height:14px; padding:3px; background-color:#202020; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#999 }
 .input_txt3 { height:16px; padding:4px; background-color:#FFF; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#036 }
-.btn2 { height:44px; margin:2px; background:url(../images/common/bg_btn.gif) 50% 50% repeat-x; font-family:Arial, Gadget, sans-serif; font-weight:bold; font-size:20px; color:#FFF; cursor:pointer }
+.btn2 { height:44px; margin:2px; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Common/bg_btn.gif) 50% 50% repeat-x; font-family:Arial, Gadget, sans-serif; font-weight:bold; font-size:20px; color:#FFF; cursor:pointer }
 .btn2:hover { color:#00d8ff }
 .btn4 { height:18px; margin:2px; background-color:#303030; font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#FFF; cursor:pointer }
 .btn4:hover { border:1px solid #00d8ff; color:#00d8ff }
@@ -44,7 +44,7 @@
 /***********************************************/
 
 #RecruitFriend { width:100% }
-#RecruitFriend DIV.group_info { width:100%; height:290px; margin:0; padding:0 5px 0 0; background:url(../images/account/bg_frinfo.png) 0 50% no-repeat }
+#RecruitFriend DIV.group_info { width:100%; height:290px; margin:0; padding:0 5px 0 0; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Account/bg_frinfo.png) 0 50% no-repeat }
 #RecruitFriend DIV.group_info A { float:left; width:180px; height:90px; margin:0; padding:200px 0 0 0; color:#0F6 }
 #RecruitFriend DIV.section_wrap { position:relative; width:98%; height:auto; margin:10px 0 5px 6px }
 #RecruitFriend TD.item_area { text-align:center }
@@ -56,13 +56,13 @@
 #RecruitFriend SPAN.ttl_area { float:left; width:72px; height:16px; margin:4px 8px 0 2px; text-align:right; font-size:11px; color:#666 }
 #RecruitFriend DIV.txt_area { width:490px; height:22px; margin:0 }
 #RecruitFriend DIV.btn_area { width:80px; height:22px; margin:0 4px }
-#RecruitFriend DIV.banner_area { width:570px; height:auto; margin:15px 0 4px; padding:0 0 0 82px; background:url(../images/common/arr_banded.png) 55px 100% no-repeat }
-#RecruitFriend DIV.email_wrap { position:absolute; z-index:2; top:15px; left:100px; width:500px; height:70px; background:url(../images/account/img_mail_out.png) 100% 50% no-repeat; font-size:12px; font-weight:bold; color:#FFF }
-#RecruitFriend DIV.email_wrap:hover { background:url(../images/account/img_mail_ovr.png) 100% 50% no-repeat; text-decoration:underline; color:#00d8ff; cursor:pointer }
-#RecruitFriend SPAN.dsc_email { float:left; width:290px; height:16px; margin:36px 0 0 30px; background:url(../images/common/arr_array.png) 100% 50% no-repeat }
-#SendEmail { width:594px; height:294px; border:3px solid #FFF; background:url(../images/common/bg_lightbox.gif) 0 0 repeat-x }
+#RecruitFriend DIV.banner_area { width:570px; height:auto; margin:15px 0 4px; padding:0 0 0 82px; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Common/arr_banded.png) 55px 100% no-repeat }
+#RecruitFriend DIV.email_wrap { position:absolute; z-index:2; top:15px; left:100px; width:500px; height:70px; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Account/img_mail_out.png) 100% 50% no-repeat; font-size:12px; font-weight:bold; color:#FFF }
+#RecruitFriend DIV.email_wrap:hover { background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Account/img_mail_ovr.png) 100% 50% no-repeat; text-decoration:underline; color:#00d8ff; cursor:pointer }
+#RecruitFriend SPAN.dsc_email { float:left; width:290px; height:16px; margin:36px 0 0 30px; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Common/arr_array.png) 100% 50% no-repeat }
+#SendEmail { width:594px; height:294px; border:3px solid #FFF; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Common/bg_lightbox.gif) 0 0 repeat-x }
 #SendEmail DIV { float:left; }
-#SendEmail DIV.img_top { width:594px; height:90px; background:url(../images/account/img_mail_out.png) 100% 0 no-repeat }
+#SendEmail DIV.img_top { width:594px; height:90px; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Account/img_mail_out.png) 100% 0 no-repeat }
 #SendEmail DIV.textarea_wrap { width:100%; height:28px; margin:12px 0 0 }
 #SendEmail SPAN.ttl_area { float:left; width:130px; height:14px; margin:6px 8px 0 0; font-weight:bold; font-size:12px; text-align:right; color:#333 }
 #SendEmail DIV.input_area { width:430px; height:26px; margin:0 }
