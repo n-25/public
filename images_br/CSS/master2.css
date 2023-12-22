@@ -52,10 +52,10 @@ A:active{ text-decoration:none; }
 
 .btnContainer-01 { width:auto; height:auto; margin-left:35%; float:left; } /* Registration, editinformation, Addexistingaccount,  */
 .btnContainer-02 { width:auto; height:auto; margin:14px 0 0 0; padding:0; float:left; } /* Log-in */
-.btnRound { width:auto; height:auto; margin:0; padding:0; background:#000 url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/btn_center02.png) center repeat-x; border:solid 1px #669999; -webkit-border-radius:3px; -moz-border-radius:3px; border-radius:3px; -webkit-box-shadow: #000 0 0 7px; -moz-box-shadow: #000 0 0 10px; box-shadow: #000 0 0 7px; behavior:url(../scripts/PIE.htc);position:relative; z-index:800; float:left; } /* Login */
+.btnRound { width:auto; height:auto; margin:0; padding:0; background:#000 url(https://cdn.statically.io/gh/n-25/public/Live/images_br/images/sub/btn_center02.png) center repeat-x; border:solid 1px #669999; -webkit-border-radius:3px; -moz-border-radius:3px; border-radius:3px; -webkit-box-shadow: #000 0 0 7px; -moz-box-shadow: #000 0 0 10px; box-shadow: #000 0 0 7px; behavior:url(../scripts/PIE.htc);position:relative; z-index:800; float:left; } /* Login */
 .btnRound:hover { color:#00FFFF; border:solid 1px #00FFFF; } /* in class btnRound */
-.btn-03 { width:170px; height:38px; margin:0; padding:0; border:0; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/blank.gif) top repeat; font-family:Arial, Helvetica, sans-serif; font-size:16px; font-weight:bold; text-align:center; color:#FFF; cursor:pointer; } /* Registration,Editinformation */
-.btn-04 { width:100px; height:60px; margin:0; padding:0; border:0; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/blank.gif) top repeat; font-family:Arial, Helvetica, sans-serif; font-size:16px; font-weight:bold; text-align:center; color:#FFF; cursor:pointer; } /* Login */
+.btn-03 { width:170px; height:38px; margin:0; padding:0; border:0; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/images/sub/blank.gif) top repeat; font-family:Arial, Helvetica, sans-serif; font-size:16px; font-weight:bold; text-align:center; color:#FFF; cursor:pointer; } /* Registration,Editinformation */
+.btn-04 { width:100px; height:60px; margin:0; padding:0; border:0; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/images/sub/blank.gif) top repeat; font-family:Arial, Helvetica, sans-serif; font-size:16px; font-weight:bold; text-align:center; color:#FFF; cursor:pointer; } /* Login */
 .btn-03:hover { color:#00FFFF; }
 .btn-04:hover { color:#00FFFF; }
 /* End Button layout CSS  */

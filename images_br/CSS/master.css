@@ -55,7 +55,7 @@ a:active{ text-decoration:none; }
 #content .contentWraperGamelist { margin:0px; padding:0px; border:2px solid #999999; } /* This border Only for GameList in SubPage */
 .sitemap { font-size:12px; font-family:Arial, Helvetica, sans-serif; color:#999999; text-align:right; }
 #content .subTitle { background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/bg_subtitle.png); background-position:left bottom; background-repeat:no-repeat; }
-#contentBottom { width:728px; height:23px; background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_contentsB_R.png); }
+#contentBottom { width:728px; height:23px; background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/images/sub/mc_contentsB_R.png); }
 /* End content layout CSS */
 
 /* Start content Header */
