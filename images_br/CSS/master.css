@@ -47,46 +47,46 @@ a:active{ text-decoration:none; }
 /* Start content layout CSS */
 #contentContainer { margin:0px 0px 0px 14px; padding:51px 0px 20px 0px; float:left; width:728px; height:auto; } /* 나중에 줄여야함 */
 #LoginField { width:728px; height:80px; color:#6F6; float:left; margin:40px 0 0 14px; background-color:#0C0; }
-#contentBG { width:728px; height:auto; background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/bg_contents.gif); background-repeat:repeat; }
-#content { width:688px; height:auto; min-height:460px; background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_contentsB.png); background-position:bottom; background-repeat:no-repeat; margin:0px; padding:0px 20px 20px 20px; }
-#contentNews { width:728px; height:auto; min-height:460px; background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_contentsB.png); background-position:bottom; background-repeat:no-repeat; margin:0px; padding:0px 0px 20px 0px; }
+#contentBG { width:728px; height:auto; background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/bg_contents.gif); background-repeat:repeat; }
+#content { width:688px; height:auto; min-height:460px; background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_contentsB.png); background-position:bottom; background-repeat:no-repeat; margin:0px; padding:0px 20px 20px 20px; }
+#contentNews { width:728px; height:auto; min-height:460px; background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_contentsB.png); background-position:bottom; background-repeat:no-repeat; margin:0px; padding:0px 0px 20px 0px; }
 #contentNews TABLE IMG { max-width:540px; height:auto; }
 #content .contentWraper { margin:0px; padding:0px 20px; border:2px solid #999999; }
 #content .contentWraperGamelist { margin:0px; padding:0px; border:2px solid #999999; } /* This border Only for GameList in SubPage */
 .sitemap { font-size:12px; font-family:Arial, Helvetica, sans-serif; color:#999999; text-align:right; }
-#content .subTitle { background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/bg_subtitle.png); background-position:left bottom; background-repeat:no-repeat; }
-#contentBottom { width:728px; height:23px; background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_contentsB_R.png); }
+#content .subTitle { background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/bg_subtitle.png); background-position:left bottom; background-repeat:no-repeat; }
+#contentBottom { width:728px; height:23px; background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_contentsB_R.png); }
 /* End content layout CSS */
 
 /* Start content Header */
 #contentHeader { width:728px; height:50px; }
-#contentHeader.gamelist { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_header_gamelist.png); }
-#contentHeader.gameAccounts { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_header_gameAccounts.png); }
-#contentHeader.AccountInformation { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_header_accInfo.png); }
-#contentHeader.findIDPW { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_header_findIDPW.png); }
-#contentHeader.login { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_header_login.png); }
-#contentHeader.register{ background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_header_register.png); }
-#contentHeader.announcements{ background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_header_announcements.png); }
-#contentHeader.events{ background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_header_events.png); }
-#contentHeader.press{ background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_header_press.png); }
-#contentHeader.oops{ background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_header_oops.png); }
-#contentHeader.forgotPW{ background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_header_forgotPW.png); }
-#contentHeader.download{ background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_header_download.png); }
+#contentHeader.gamelist { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_header_gamelist.png); }
+#contentHeader.gameAccounts { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_header_gameAccounts.png); }
+#contentHeader.AccountInformation { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_header_accInfo.png); }
+#contentHeader.findIDPW { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_header_findIDPW.png); }
+#contentHeader.login { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_header_login.png); }
+#contentHeader.register{ background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_header_register.png); }
+#contentHeader.announcements{ background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_header_announcements.png); }
+#contentHeader.events{ background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_header_events.png); }
+#contentHeader.press{ background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_header_press.png); }
+#contentHeader.oops{ background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_header_oops.png); }
+#contentHeader.forgotPW{ background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_header_forgotPW.png); }
+#contentHeader.download{ background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_header_download.png); }
 /* End content Header */
 #loginBG {
-	background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/cha_login.png);
+	background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/cha_login.png);
 	background-position:right top;
 	background-repeat:no-repeat;
 	height:auto;
 }
 #registrationCompleteBG {
-	background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/cha_registrationComplete.png);
+	background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/cha_registrationComplete.png);
 	background-position:right;
 	background-repeat:no-repeat;
 	height:auto;
 }
 #welcomeBG {
-	background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/cha_welcome.png);
+	background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/cha_welcome.png);
 	background-position:right;
 	background-repeat:no-repeat;
 	height:auto;
@@ -97,7 +97,7 @@ a:active{ text-decoration:none; }
 	text-align:center;
 }
 #oopsBG {
-	background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/cha_oops.png);
+	background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/cha_oops.png);
 	background-position:right;
 	background-repeat:no-repeat;
 	height:auto;
@@ -342,11 +342,11 @@ a:active{ text-decoration:none; }
 /* End GameList In Subpage */
 
 /* start fonts & textField & padding CSS */
-H1 { font-size:18px; height:20px; margin:0; font-weight:bold; color:#00ccff; padding:0px 0px 0px 10px; background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_bullet.gif); background-position:left; background-repeat:no-repeat; }
-H2 { font-size:13px; line-height:24px; margin:0px; color:#00fff0; font-weight:bold; padding:0px 0px 0px 12px; background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_bullet3.png); background-position:left; background-repeat:no-repeat; }
-H3 { font-size:12px; line-height:20px; margin:0px; color:#FFFFFF; padding:5px 0px 5px 16px; font-weight:normal; background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_bullet2.gif); background-position:left; background-repeat:no-repeat; }
-H4 { font-size:12px; line-height:35px; margin:0px; color:#FFFFFF; padding:5px 0px 5px 30px; font-weight:normal; background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_bullet_Title.png); background-position:left; background-repeat:no-repeat; }
-H5 { font-size:14px; line-height:20px; margin:0px 10px 0px 0px; color:#FFFFFF; padding:5px 0px 5px 40px; font-weight:bold; background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_bullet_Title2.png); background-position:left; background-repeat:no-repeat; }
+H1 { font-size:18px; height:20px; margin:0; font-weight:bold; color:#00ccff; padding:0px 0px 0px 10px; background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_bullet.gif); background-position:left; background-repeat:no-repeat; }
+H2 { font-size:13px; line-height:24px; margin:0px; color:#00fff0; font-weight:bold; padding:0px 0px 0px 12px; background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_bullet3.png); background-position:left; background-repeat:no-repeat; }
+H3 { font-size:12px; line-height:20px; margin:0px; color:#FFFFFF; padding:5px 0px 5px 16px; font-weight:normal; background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_bullet2.gif); background-position:left; background-repeat:no-repeat; }
+H4 { font-size:12px; line-height:35px; margin:0px; color:#FFFFFF; padding:5px 0px 5px 30px; font-weight:normal; background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_bullet_Title.png); background-position:left; background-repeat:no-repeat; }
+H5 { font-size:14px; line-height:20px; margin:0px 10px 0px 0px; color:#FFFFFF; padding:5px 0px 5px 40px; font-weight:bold; background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_bullet_Title2.png); background-position:left; background-repeat:no-repeat; }
 H6 { font-size:12px; font-weight:bold; margin:0px; color:#ebebeb; padding:5px 5px 20px 5px;}
 P {	font-size:12px; margin:0px; color:#FFFFFF; padding:10px 20px 10px 30px; }
 .tableTitle { Height:25px; text-align:center; background-color:#000000; opacity:0.6; filter:alpha(opactiy=60); color:#00CCFF; font-weight:bold; }
@@ -391,15 +391,15 @@ P {	font-size:12px; margin:0px; color:#FFFFFF; padding:10px 20px 10px 30px; }
 .padding03 { padding-top:30px; }
 /* end fonts & textField & padding CSS */
 
-.strength0 { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/pwbar0.gif); width:150px; height:15px }
-.strength1 { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/pwbar1.gif); width:150px; height:15px }
-.strength2 { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/pwbar2.gif); width:150px; height:15px }
-.strength3 { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/pwbar3.gif); width:150px; height:15px }
-.strength4 { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/pwbar4.gif); width:150px; height:15px }
-.strength5 { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/pwbar5.gif); width:150px; height:15px }
+.strength0 { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/pwbar0.gif); width:150px; height:15px }
+.strength1 { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/pwbar1.gif); width:150px; height:15px }
+.strength2 { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/pwbar2.gif); width:150px; height:15px }
+.strength3 { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/pwbar3.gif); width:150px; height:15px }
+.strength4 { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/pwbar4.gif); width:150px; height:15px }
+.strength5 { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/pwbar5.gif); width:150px; height:15px }
 
 .gatewayBody {
-	background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/bg_gatewayBilling.jpg);
+	background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/bg_gatewayBilling.jpg);
 	background-color:#000000;
 	background-repeat:no-repeat;
 }
@@ -417,7 +417,7 @@ P {	font-size:12px; margin:0px; color:#FFFFFF; padding:10px 20px 10px 30px; }
 	height:auto;
 	clear:both;
 	color:#666666;
-	background-image:url(.https://cdn.statically.io/gh/n-25/public/Live/images_br/footer/mc_footerline.png);
+	background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/footer/mc_footerline.png);
 	background-repeat:no-repeat;
 }
 #footer A:hover { color:#999999;}

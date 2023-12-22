@@ -12,11 +12,11 @@ A:active{ text-decoration:none; }
 
 #Breadcrumb { width:100%; height:12px; color:#999999; text-align:right; }
 
-#ContentsBG { width:100%; height:auto; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/bg_contents.gif) repeat; float:left; }
-#ContentsBottom { width:100%; height:auto; min-height:460px; _height:460px; margin:0; padding:0 0 20px 0; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_contentsB.png) bottom no-repeat; float:left; }
+#ContentsBG { width:100%; height:auto; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/bg_contents.gif) repeat; float:left; }
+#ContentsBottom { width:100%; height:auto; min-height:460px; _height:460px; margin:0; padding:0 0 20px 0; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_contentsB.png) bottom no-repeat; float:left; }
 #ContentsField { width:93%; height:auto; margin:0 0 0 20px; padding:0px; float:left; }
 .listLine { width:100%; height:1px; margin:0 0 5px 0; padding:0; background-color:#666; } /* Careerlist */
-.centerLine-01 { width:100%; height:11px; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_contentsline.png) center no-repeat; } /* FRlink, Editinformation */
+.centerLine-01 { width:100%; height:11px; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_contentsline.png) center no-repeat; } /* FRlink, Editinformation */
 .centerLine-02 { width:100%; height:auto; margin:10px 0 0 0; padding:0; text-align:center; } /* Login, Registration */
 
 /* End content layout CSS */
@@ -28,7 +28,7 @@ A:active{ text-decoration:none; }
 /* End Blank layout CSS */
 
 /* Start Button layout CSS */
-.btn-01 { width:auto; height:35px; margin:0; padding:0; border:solid 1px #0099CC; -webkit-border-radius:4px; -moz-border-radius:4px; border-radius:4px; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/btn_center.png) center repeat-x; -webkit-box-shadow: #000 0 0 7px; -moz-box-shadow: #000 0 0 10px; box-shadow: #000 0 0 7px; behavior:url(../scripts/PIE.htc); font-family:Arial, Helvetica, sans-serif font-size:16px; font-weight:bold; text-align:center; color:#FFF; float:left; }
+.btn-01 { width:auto; height:35px; margin:0; padding:0; border:solid 1px #0099CC; -webkit-border-radius:4px; -moz-border-radius:4px; border-radius:4px; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/btn_center.png) center repeat-x; -webkit-box-shadow: #000 0 0 7px; -moz-box-shadow: #000 0 0 10px; box-shadow: #000 0 0 7px; behavior:url(../scripts/PIE.htc); font-family:Arial, Helvetica, sans-serif font-size:16px; font-weight:bold; text-align:center; color:#FFF; float:left; }
 .btn-01 DIV.title { width:auto; height:auto; margin:10px 50px 0 50px; font-size:16px; font-weight:bold; text-align:center; color:#FFF; float:left; }
 .btn-01 DIV.title A { width:100%; height:100%; display:block; color:#FFF; }
 .btn-01 DIV.title A:hover { color:#00CCFF; }
@@ -39,7 +39,7 @@ A:active{ text-decoration:none; }
 .btn-02 DIV.iconContainer { width:auto; height:auto; margin:0; padding:0; float:left !important; } /* Addgame */
 .btn-02 DIV.title { width:auto; height:20px; margin:18px 10px 0 0; padding:0px; font-size:18px; line-height:20px; font-weight:bold; color:#FFF; text-align:right; float:right !important; } /* Addgame */
 .btn-02 DIV.detail { width:auto; height:30px; min-width:150px; margin:5px 10px 0 0; padding:0; font-size:10px; font-weight:bold; color:#999999; text-align:right; float:right !important; } /* Addgame */
-.btn-02 DIV.linkContainer { width:32%; height:auto; margin:10px 10px 0 0; padding:0 0 0 10px; font-size:12px; font-weight:bold; color:#00CCFF; text-align:right; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/Career_listBullet01.png) center left no-repeat; float:right !important; } /* Addgame */
+.btn-02 DIV.linkContainer { width:32%; height:auto; margin:10px 10px 0 0; padding:0 0 0 10px; font-size:12px; font-weight:bold; color:#00CCFF; text-align:right; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/Career_listBullet01.png) center left no-repeat; float:right !important; } /* Addgame */
 
 
 .cont_apply {width:600px; height:50px; margin:0 0 10px;}
@@ -47,63 +47,63 @@ A:active{ text-decoration:none; }
 .btn_apply:hover { background:#333; border:1px solid #FFF; color:#F60; text-decoration:none }
 
 .applyBtn {width:auto; height:20px; margin:0 10px; float:right !important; font-weight:bold; } /* Careerlist */
-.applyBtn A { width:100%; height:100%; display:block; padding:0 0 0 22px; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/Career_Bullet02.png) center left no-repeat; } /* Careerlist */
-.applyBtn A:hover { color:#FFF; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/Career_Bullet03.png) center left no-repeat; } /* Careerlist */
+.applyBtn A { width:100%; height:100%; display:block; padding:0 0 0 22px; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/Career_Bullet02.png) center left no-repeat; } /* Careerlist */
+.applyBtn A:hover { color:#FFF; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/Career_Bullet03.png) center left no-repeat; } /* Careerlist */
 
 .btnContainer-01 { width:auto; height:auto; margin-left:35%; float:left; } /* Registration, editinformation, Addexistingaccount,  */
 .btnContainer-02 { width:auto; height:auto; margin:14px 0 0 0; padding:0; float:left; } /* Log-in */
-.btnRound { width:auto; height:auto; margin:0; padding:0; background:#000 url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/btn_center02.png) center repeat-x; border:solid 1px #669999; -webkit-border-radius:3px; -moz-border-radius:3px; border-radius:3px; -webkit-box-shadow: #000 0 0 7px; -moz-box-shadow: #000 0 0 10px; box-shadow: #000 0 0 7px; behavior:url(../scripts/PIE.htc);position:relative; z-index:800; float:left; } /* Login */
+.btnRound { width:auto; height:auto; margin:0; padding:0; background:#000 url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/btn_center02.png) center repeat-x; border:solid 1px #669999; -webkit-border-radius:3px; -moz-border-radius:3px; border-radius:3px; -webkit-box-shadow: #000 0 0 7px; -moz-box-shadow: #000 0 0 10px; box-shadow: #000 0 0 7px; behavior:url(../scripts/PIE.htc);position:relative; z-index:800; float:left; } /* Login */
 .btnRound:hover { color:#00FFFF; border:solid 1px #00FFFF; } /* in class btnRound */
-.btn-03 { width:170px; height:38px; margin:0; padding:0; border:0; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/blank.gif) top repeat; font-family:Arial, Helvetica, sans-serif; font-size:16px; font-weight:bold; text-align:center; color:#FFF; cursor:pointer; } /* Registration,Editinformation */
-.btn-04 { width:100px; height:60px; margin:0; padding:0; border:0; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/blank.gif) top repeat; font-family:Arial, Helvetica, sans-serif; font-size:16px; font-weight:bold; text-align:center; color:#FFF; cursor:pointer; } /* Login */
+.btn-03 { width:170px; height:38px; margin:0; padding:0; border:0; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/blank.gif) top repeat; font-family:Arial, Helvetica, sans-serif; font-size:16px; font-weight:bold; text-align:center; color:#FFF; cursor:pointer; } /* Registration,Editinformation */
+.btn-04 { width:100px; height:60px; margin:0; padding:0; border:0; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/blank.gif) top repeat; font-family:Arial, Helvetica, sans-serif; font-size:16px; font-weight:bold; text-align:center; color:#FFF; cursor:pointer; } /* Login */
 .btn-03:hover { color:#00FFFF; }
 .btn-04:hover { color:#00FFFF; }
 /* End Button layout CSS  */
 
 /*
 #ContentsField DIV.contentWraper { margin:0px; padding:0px 20px; border:2px solid #999999; }
-#ContentsField DIV.subTitle { background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/bg_subtitle.png); background-position:left bottom; background-repeat:no-repeat; }
+#ContentsField DIV.subTitle { background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/bg_subtitle.png); background-position:left bottom; background-repeat:no-repeat; }
 */
-#ContentsBottomReflect { width:100%; height:23px; background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_contentsB_R.png); float:left; }
+#ContentsBottomReflect { width:100%; height:23px; background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_contentsB_R.png); float:left; }
 
 /* Start content Header */
 #ContentsHeader { width:100%; height:50px; }
-#ContentsHeader.gamelist { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_header_gamelist.png); }
-#ContentsHeader.gameAccounts { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_header_gameAccounts.png); }
-#ContentsHeader.AccountInformation { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_header_accInfo.png); }
-#ContentsHeader.findIDPW { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_header_findIDPW.png); }
-#ContentsHeader.login { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_header_login.png); }
-#ContentsHeader.register { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_header_register.png); }
-#ContentsHeader.announcements { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_header_announcements.png); }
-#ContentsHeader.events { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_header_events.png); }
-#ContentsHeader.press { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_header_press.png); }
-#ContentsHeader.oops { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_header_oops.png); }
-#ContentsHeader.forgotPW { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_header_forgotPW.png); }
-#ContentsHeader.download { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_header_download.png); }
-#ContentsHeader.career { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_header_career.png); }
-#ContentsHeader.friends { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_header_recruitAFriend.png); }
+#ContentsHeader.gamelist { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_header_gamelist.png); }
+#ContentsHeader.gameAccounts { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_header_gameAccounts.png); }
+#ContentsHeader.AccountInformation { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_header_accInfo.png); }
+#ContentsHeader.findIDPW { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_header_findIDPW.png); }
+#ContentsHeader.login { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_header_login.png); }
+#ContentsHeader.register { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_header_register.png); }
+#ContentsHeader.announcements { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_header_announcements.png); }
+#ContentsHeader.events { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_header_events.png); }
+#ContentsHeader.press { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_header_press.png); }
+#ContentsHeader.oops { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_header_oops.png); }
+#ContentsHeader.forgotPW { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_header_forgotPW.png); }
+#ContentsHeader.download { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_header_download.png); }
+#ContentsHeader.career { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_header_career.png); }
+#ContentsHeader.friends { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_header_recruitAFriend.png); }
 /* End content Header */
 
 /* Start Texts CSS */
 P { margin:0; padding:0; float:left; }
-.contentTitle { width:100%; height:auto; font-size:18px; font-weight:bold; color:#00CCFF; padding:0 0 0 10px; margin:2px 0 3px 0px; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_bullet.gif) left no-repeat; }
+.contentTitle { width:100%; height:auto; font-size:18px; font-weight:bold; color:#00CCFF; padding:0 0 0 10px; margin:2px 0 3px 0px; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_bullet.gif) left no-repeat; }
 .contentTitle DIV.titleAtEdit { width:90%; height:auto; margin:4px 0 0 0; float:left; }
-.contentTitle DIV.edit { width:5%; height:auto; margin:6px 0 0 0; padding:0 0 0 18px; float:right; font-size:12px; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/icon_edit_small.png) left no-repeat; }
-.sectionTitle { width:100%; height:auto; font-size:15px; font-weight:bold; color:#00fff0; margin:3px 0 1px 0; padding:1px 0 0 12px; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_bullet3.png) left no-repeat; }
+.contentTitle DIV.edit { width:5%; height:auto; margin:6px 0 0 0; padding:0 0 0 18px; float:right; font-size:12px; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/icon_edit_small.png) left no-repeat; }
+.sectionTitle { width:100%; height:auto; font-size:15px; font-weight:bold; color:#00fff0; margin:3px 0 1px 0; padding:1px 0 0 12px; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_bullet3.png) left no-repeat; }
 .sectionTitle DIV.titleAtEdit { width:50%; height:auto; float:left; }
-.sectionTitle DIV.edit { width:20px; height:auto; margin:0 0 0 50px; padding:0 0 0 18px; float:right; font-size:12px; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/icon_edit_small.png) left no-repeat; }
+.sectionTitle DIV.edit { width:20px; height:auto; margin:0 0 0 50px; padding:0 0 0 18px; float:right; font-size:12px; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/icon_edit_small.png) left no-repeat; }
 .notice01 { width:100%; height:auto; font-size:12px; color:#FF0000; margin:4px 0; padding:0; text-align:center; } /* Registration, Accountinformation */
-.subTitle01 { width:100%; height:16px; color:#FFF; font-size:12px; padding:0 0 0 16px; margin-top:1px; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_bullet2.gif) left no-repeat; } /* White */
+.subTitle01 { width:100%; height:16px; color:#FFF; font-size:12px; padding:0 0 0 16px; margin-top:1px; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_bullet2.gif) left no-repeat; } /* White */
 .detail { width:93%; height:auto; margin:0 0 0 3px; padding:0 20px 0 20px; color:#FFF; font-size:12px; } /* Addgame, CareerList */
 .text01 { width:100%; height:16px; color:#FFF; font-size:12px; margin-top:1px; } /* White, Accountinformation */
 .text02 { width:100%; height:16px; color:#999; font-size:12px; margin-top:1px; } /* Grey, Accountinformation */
 .text03 { width:100%; height:16px; margin:0 0 5px 0; color:#0099FF; font-size:12px; font-weight:bold; padding:0; } /* Blue, Accountinformation */
-.strength-0 { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/pwbar0.gif); width:150px; height:15px } /* Registration */
-.strength-1 { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/pwbar1.gif); width:150px; height:15px }
-.strength-2 { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/pwbar2.gif); width:150px; height:15px }
-.strength-3 { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/pwbar3.gif); width:150px; height:15px }
-.strength-4 { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/pwbar4.gif); width:150px; height:15px }
-.strength-5 { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/pwbar5.gif); width:150px; height:15px }
+.strength-0 { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/pwbar0.gif); width:150px; height:15px } /* Registration */
+.strength-1 { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/pwbar1.gif); width:150px; height:15px }
+.strength-2 { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/pwbar2.gif); width:150px; height:15px }
+.strength-3 { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/pwbar3.gif); width:150px; height:15px }
+.strength-4 { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/pwbar4.gif); width:150px; height:15px }
+.strength-5 { background-image:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/pwbar5.gif); width:150px; height:15px }
 .textField-01 { background-color: #FFF; width:200px; margin:0; height:18px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#003672; padding: 2px 3px 0 3px; border:solid 1px #FFF; filter:Alpha(Opacity=50); opacity: 0.5; } /* Registration, Editinformation */
 .textField-02 { background-color: #95999f; width:248px; height:22px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#1d2936; padding:0; margin:0; border-width: 1px; border-style: solid; } /* Registration, Editinformation */
 .textField-03 { background-color: #FFF; width:230px; margin:0; height:18px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#003672; padding: 2px 3px 0 3px; border:solid 1px #FFF; filter:Alpha(Opacity=50); opacity: 0.5; } /* Editexistingaccount, Login */
@@ -118,7 +118,7 @@ P { margin:0; padding:0; float:left; }
 .sectionContainer { width:100%; height:auto; margin:0; padding:5px;  border:1px solid #999999;  -webkit-border-radius:6px; -moz-border-radius:6px; border-radius:6px; behavior:url(../scripts/PIE.htc);  z-index:986; position:relative; }
 .listTitleContainer { width:100%; height:26px; margin:3px 0 0 0; -webkit-border-radius:6px; -moz-border-radius:6px; border-radius:6px; background-color:#000000; behavior:url(../scripts/PIE.htc); z-index:988; position:relative; color:#00FFFF; font-size:12px; font-weight:bold; text-align:center; }
 .listContentContainer { width:100%; height:28px; margin:0; -webkit-border-radius:6px; -moz-border-radius:6px; border-radius:6px; behavior:url(../scripts/PIE.htc);  z-index:987; position:relative; }
-.sectionContainerShadow { width:100%; height:11px; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_contentsline.png) center no-repeat; }
+.sectionContainerShadow { width:100%; height:11px; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_contentsline.png) center no-repeat; }
 /* End Global CSS */
 
 /* Padding CSS */
@@ -141,19 +141,19 @@ P { margin:0; padding:0; float:left; }
 #AccountInformation DIV.listContentContainer DIV.btn { width:10%; height:auto; margin:3px 0; text-align:right; }
 #AccountInformation DIV.nogameaccount { width:100%; height:auto; margin:5px 0; }
 #AccountInformation DIV.quickLinks { width:100%; height:auto; margin:4px 0 0 0; }
-#AccountInformation DIV.quickLinks DIV.title { width:40%; height:auto; padding:0 0 0 38px; margin-top:5px; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_bullet_Title2.png) left no-repeat; }
+#AccountInformation DIV.quickLinks DIV.title { width:40%; height:auto; padding:0 0 0 38px; margin-top:5px; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_bullet_Title2.png) left no-repeat; }
 #AccountInformation DIV.quickLinks DIV.btn { width:30%; height:auto;  }
 
 #Careers { width:100%; height:auto; }
 #Careers DIV { float:left; }
-#Careers DIV.listTitleContainer DIV.jobtitle { width:67%; height:auto; margin:4px 0 0 8px; padding:0 0 0 15px; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/Career_Bullet01.png) center left no-repeat; text-align:left; }
+#Careers DIV.listTitleContainer DIV.jobtitle { width:67%; height:auto; margin:4px 0 0 8px; padding:0 0 0 15px; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/Career_Bullet01.png) center left no-repeat; text-align:left; }
 #Careers DIV.listTitleContainer DIV.hits { width:10%; height:auto; margin:4px 0 0 0; text-align:center; }
 #Careers DIV.listTitleContainer DIV.date { width:15%; height:auto; margin:4px 0 0 0; text-align:center; }
 #Careers DIV.listTitleContainer DIV.availability { width:14%; height:auto; margin:4px 0 0 0; text-align:center; }
 #Careers DIV.listContentContainer DIV.jobtitlelist { width:67%; height:auto; margin:4px 15px 0 8px; font-weight:bold; }
-#Careers DIV.listContentContainer DIV.jobtitlelist A { width:100%; height:100%; display:block; padding:0 0 0 15px; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/Career_listBullet01.png) center left no-repeat; color: #00ffff; }
-#Careers DIV.listContentContainer DIV.jobtitlelist A:hover { background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/Career_listBullet02.png) center left no-repeat; color:#FF6600; cursor:pointer; }
-#Careers DIV.listContentContainer DIV.jobtitlelist A.selected { background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/Career_listBullet02.png) center left no-repeat; color:#FF6600; cursor:pointer; }
+#Careers DIV.listContentContainer DIV.jobtitlelist A { width:100%; height:100%; display:block; padding:0 0 0 15px; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/Career_listBullet01.png) center left no-repeat; color: #00ffff; }
+#Careers DIV.listContentContainer DIV.jobtitlelist A:hover { background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/Career_listBullet02.png) center left no-repeat; color:#FF6600; cursor:pointer; }
+#Careers DIV.listContentContainer DIV.jobtitlelist A.selected { background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/Career_listBullet02.png) center left no-repeat; color:#FF6600; cursor:pointer; }
 #Careers DIV.listContentContainer DIV.hitslist { width:10%; height:auto; margin:4px 0 0 0; text-align:center; }
 #Careers DIV.listContentContainer DIV.datelist { width:15%; height:auto; margin:4px 0 0 0; text-align:center; }
 #Careers DIV.listContentContainer DIV.availabilitylist { width:14%; height:auto; margin:4px 0 0 0; text-align:center; }
@@ -162,10 +162,10 @@ P { margin:0; padding:0; float:left; }
 
 #Registration { width:100%; height:auto; }
 #Registration DIV { float:left; }
-#Registration DIV.listTitleContainer DIV.header { width:67%; height:auto; margin:4px 0 0 8px; padding:0 0 0 15px; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/Career_Bullet01.png) center left no-repeat; text-align:left; }
+#Registration DIV.listTitleContainer DIV.header { width:67%; height:auto; margin:4px 0 0 8px; padding:0 0 0 15px; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/Career_Bullet01.png) center left no-repeat; text-align:left; }
 #Registration DIV.information { width:100%; height:auto; margin:4px 0 0; }
 #Registration DIV.information DIV.listContentContainer DIV.checkbox { width:50%; height:auto; margin:0 0 0 168px; text-align:center; }
-#Registration DIV.information DIV.listContentContainer DIV.listContainer { width:27%; font-size:12px; line-height:12px; margin:5px 0; color:#FFF; padding:5px 0 5px 16px; font-weight:normal; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_bullet2.gif) left no-repeat ; }
+#Registration DIV.information DIV.listContentContainer DIV.listContainer { width:27%; font-size:12px; line-height:12px; margin:5px 0; color:#FFF; padding:5px 0 5px 16px; font-weight:normal; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_bullet2.gif) left no-repeat ; }
 #Registration DIV.information DIV.listContentContainer DIV.textContainer { width:65%; height:22px; margin:5px 0; padding:0px; font-weight:bold; float:left; }
 #Registration DIV.information DIV.listContentContainer DIV.textContainer02 { width:65%; height:12px; margin:0 0 0 197px; padding:0 0 10px 0; font-size:10px;font-weight:bold; }
 #Registration DIV.information DIV.listContentContainer DIV.textContainer02 DIV#password { width:102px; height:auto; font-size:10px; }
@@ -173,29 +173,29 @@ P { margin:0; padding:0; float:left; }
 
 #Login { width:100%; height:auto; }
 #Login DIV { float:left; }
-#Login DIV.listTitleContainer DIV.header { width:67%; height:auto; margin:4px 0 0 8px; padding:0 0 0 15px; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/Career_Bullet01.png) center left no-repeat; text-align:left; }
+#Login DIV.listTitleContainer DIV.header { width:67%; height:auto; margin:4px 0 0 8px; padding:0 0 0 15px; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/Career_Bullet01.png) center left no-repeat; text-align:left; }
 #Login DIV.information { width:100%; height:auto; margin:4px 0 0; }
 #Login DIV.information DIV.errorContainer { width:600px; height:25px; margin:0px 0 0 40px; padding:0; text-align:center; }
 /*#Login DIV.information DIV.errorContainer SPAN { float:none; }*/
 #Login DIV.information DIV.listBlank { width:500px; height:20px; margin:0 20px; padding:0; }
 #Login DIV.information DIV.listContentContainer { width:63%; height:auto; margin:13px 0 0 70px; }
-#Login DIV.information DIV.listContentContainer DIV.listContainer { width:135px; font-size:12px; line-height:12px; margin:5px 0; color:#FFF; padding:5px 0 5px 15px; font-weight:normal; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_bullet2.gif) left no-repeat; }
+#Login DIV.information DIV.listContentContainer DIV.listContainer { width:135px; font-size:12px; line-height:12px; margin:5px 0; color:#FFF; padding:5px 0 5px 15px; font-weight:normal; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_bullet2.gif) left no-repeat; }
 #Login DIV.information DIV.listContentContainer DIV.textContainer { width:250px; height:22px; margin:5px 20px 5px 0; padding:0; font-weight:bold; float:left; }
 /*#Login DIV.information DIV.listContentContainer DIV.textContainer INPUT, SPAN { float:left; }*/
 #Login DIV.information DIV.messageContainer { width:85%; height:50px; margin:0 0 0 50px; padding:0; text-align:center; font-size:10px; }
 #Login DIV.information DIV.quickLinkContainer { width:95%; height:150px; margin:10px 0 0 16px; padding:0; font-size:12px; font-family:Arial, Helvetica, sans-serif; font-weight:bold; border:solid 1px #666; -webkit-border-radius:4px; -moz-border-radius:4px; border-radius:4px; background:#0c0c0c; -webkit-box-shdow: #000 0 0 7px; -moz-box-shadow: #000 0 0 7px; box-shadow: #000 0 0 7px; behavior:url(../scripts/PIE.htc); }
 #Login DIV.information DIV.quickLinkContainer DIV.quickLinkRegister { width:90px; height:90px; margin:30px 0 5px 55px; padding:0; font-weight:bold; text-align:center; }
-#Login DIV.information DIV.quickLinkContainer DIV.quickLinkRegister A { width:100%; height:100%; margin:0; padding:50px 0 0 0; display:block; color:#FFF; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_register.png) center top no-repeat; }
-#Login DIV.information DIV.quickLinkContainer DIV.quickLinkRegister A:hover { width:100%; height:100%; color:#00FFFF; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_register_over.png) center top no-repeat; }
+#Login DIV.information DIV.quickLinkContainer DIV.quickLinkRegister A { width:100%; height:100%; margin:0; padding:50px 0 0 0; display:block; color:#FFF; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_register.png) center top no-repeat; }
+#Login DIV.information DIV.quickLinkContainer DIV.quickLinkRegister A:hover { width:100%; height:100%; color:#00FFFF; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_register_over.png) center top no-repeat; }
 #Login DIV.information DIV.quickLinkContainer DIV.quickLinkPassword { width:90px; height:90px; margin:30px 0 5px 55px; padding:0; font-weight:bold; text-align:center; }
-#Login DIV.information DIV.quickLinkContainer DIV.quickLinkPassword A { width:100%; height:100%; margin:0; padding:50px 0 0 0; display:block; color:#FFF; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_forgotPW.png) center top no-repeat; }
-#Login DIV.information DIV.quickLinkContainer DIV.quickLinkPassword A:hover { width:100%; height:100%; color:#00FFFF; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_forgotPW_over.png) center top no-repeat; }
+#Login DIV.information DIV.quickLinkContainer DIV.quickLinkPassword A { width:100%; height:100%; margin:0; padding:50px 0 0 0; display:block; color:#FFF; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_forgotPW.png) center top no-repeat; }
+#Login DIV.information DIV.quickLinkContainer DIV.quickLinkPassword A:hover { width:100%; height:100%; color:#00FFFF; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_forgotPW_over.png) center top no-repeat; }
 #Login DIV.information DIV.quickLinkContainer DIV.quickLinkSupport { width:90px; height:90px; margin:30px 0 5px 55px; padding:0; font-weight:bold; text-align:center; }
-#Login DIV.information DIV.quickLinkContainer DIV.quickLinkSupport A { width:100%; height:100%; margin:0; padding:50px 0 0 0; display:block; color:#FFF; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_support.png) center top no-repeat; }
-#Login DIV.information DIV.quickLinkContainer DIV.quickLinkSupport A:hover { width:100%; height:100%; color:#00FFFF; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_support_over.png) center top no-repeat; }
+#Login DIV.information DIV.quickLinkContainer DIV.quickLinkSupport A { width:100%; height:100%; margin:0; padding:50px 0 0 0; display:block; color:#FFF; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_support.png) center top no-repeat; }
+#Login DIV.information DIV.quickLinkContainer DIV.quickLinkSupport A:hover { width:100%; height:100%; color:#00FFFF; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_support_over.png) center top no-repeat; }
 #Login DIV.information DIV.quickLinkContainer DIV.quickLinkDownload { width:90px; height:90px; margin:30px 0 5px 55px; padding:0; font-weight:bold; text-align:center; }
-#Login DIV.information DIV.quickLinkContainer DIV.quickLinkDownload A { width:100%; height:100%; margin:0; padding:50px 0 0 0; display:block; color:#FFF; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_gateway.png) center top no-repeat; }
-#Login DIV.information DIV.quickLinkContainer DIV.quickLinkDownload A:hover { width:100%; height:100%; color:#00FFFF; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_gateway_over.png) center top no-repeat; }
+#Login DIV.information DIV.quickLinkContainer DIV.quickLinkDownload A { width:100%; height:100%; margin:0; padding:50px 0 0 0; display:block; color:#FFF; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_gateway.png) center top no-repeat; }
+#Login DIV.information DIV.quickLinkContainer DIV.quickLinkDownload A:hover { width:100%; height:100%; color:#00FFFF; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_gateway_over.png) center top no-repeat; }
 
 #Login DIV.information DIV.orCont { width:100%; height:58px; margin:6px 0 0 0; padding:0; text-align:center; }
 
@@ -222,8 +222,8 @@ P { margin:0; padding:0; float:left; }
 #Edit { width:100%; height:auto; }
 #Edit DIV { float:left; }
 #Edit DIV.information { width:100%; height:auto; margin:4px 0 0; }
-#Edit DIV.information DIV.listTitleContainer DIV.titleContainer { width:67%; height:auto; margin:4px 0 0 8px; padding:0 0 0 15px; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/Career_Bullet01.png) center left no-repeat; text-align:left; }
-#Edit DIV.information DIV.listContentContainer DIV.listContainer { width:27%; font-size:12px; line-height:12px; margin:5px 0; color:#FFF; padding:5px 0px 5px 16px; font-weight:normal; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_bullet2.gif) left no-repeat ; }
+#Edit DIV.information DIV.listTitleContainer DIV.titleContainer { width:67%; height:auto; margin:4px 0 0 8px; padding:0 0 0 15px; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/Career_Bullet01.png) center left no-repeat; text-align:left; }
+#Edit DIV.information DIV.listContentContainer DIV.listContainer { width:27%; font-size:12px; line-height:12px; margin:5px 0; color:#FFF; padding:5px 0px 5px 16px; font-weight:normal; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_bullet2.gif) left no-repeat ; }
 #Edit DIV.information DIV.listContentContainer DIV.textContainer { width:65%; height:22px; margin:5px 0; padding:0; font-weight:bold; float:left; }
 #Edit DIV.information DIV.listContentContainer DIV.textContainer DIV.errorContainer { width:190px; height:auto; margin:0; padding:0; float:left; }
 #Edit DIV.information DIV.listContentContainer DIV.textContainer02 { width:65%; height:12px; margin:0 0 0 197px; padding:0 0 10px 0; font-size:10px;font-weight:bold; }
@@ -234,17 +234,17 @@ P { margin:0; padding:0; float:left; }
 #CreateNewGameAccount { width:100%; height:auto; }
 #CreateNewGameAccount DIV { float:left; }
 #CreateNewGameAccount DIV.information { width:100%; height:auto; margin:4px 0 0; }
-#CreateNewGameAccount DIV.information DIV.listTitleContainer DIV.titleContainer { width:50%; height:auto; margin:4px 0 0 8px; padding:0 528px 0 15px; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/Career_Bullet01.png) center left no-repeat; text-align:left; }
+#CreateNewGameAccount DIV.information DIV.listTitleContainer DIV.titleContainer { width:50%; height:auto; margin:4px 0 0 8px; padding:0 528px 0 15px; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/Career_Bullet01.png) center left no-repeat; text-align:left; }
 #CreateNewGameAccount DIV.information DIV.iconContainer02 { width:20%; height:100%; margin:0; padding:0; float:left; background-color:#FF0000; }
 #CreateNewGameAccount DIV.information DIV.listContentContainer { width:50%; background-color:#CC33FF; float:left; }
-#CreateNewGameAccount DIV.information DIV.listContentContainer DIV.listContainer { width:50%; font-size:12px; line-height:12px; margin:5px 0; color:#FFF; padding:5px 0 5px 16px; font-weight:normal; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_bullet2.gif) left no-repeat ; background-color:#33CCCC; }
+#CreateNewGameAccount DIV.information DIV.listContentContainer DIV.listContainer { width:50%; font-size:12px; line-height:12px; margin:5px 0; color:#FFF; padding:5px 0 5px 16px; font-weight:normal; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_bullet2.gif) left no-repeat ; background-color:#33CCCC; }
 #CreateNewGameAccount DIV.information DIV.listContentContainer DIV.textContainer { width:50%; height:22px; margin:5px 0; padding:0px; font-weight:bold; background-color:#6699CC; }
 
 #addExistingAccount { width:100%; }
 #addExistingAccount DIV { float:left; }
 #addExistingAccount DIV.information { width:100%; height:auto; margin:4px 0 0; }
-#addExistingAccount DIV.information DIV.listTitleContainer DIV.titleContainer { width:67%; height:auto; margin:4px 0 0 8px; padding:0 0 0 15px; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/Career_Bullet01.png) center left no-repeat; text-align:left; }
-#addExistingAccount DIV.information DIV.listContentContainer DIV.listContainer { width:30%; font-size:12px; line-height:12px; margin:5px 0; color:#FFF; padding:5px 0 5px 16px; font-weight:normal; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_bullet2.gif) left no-repeat ; }
+#addExistingAccount DIV.information DIV.listTitleContainer DIV.titleContainer { width:67%; height:auto; margin:4px 0 0 8px; padding:0 0 0 15px; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/Career_Bullet01.png) center left no-repeat; text-align:left; }
+#addExistingAccount DIV.information DIV.listContentContainer DIV.listContainer { width:30%; font-size:12px; line-height:12px; margin:5px 0; color:#FFF; padding:5px 0 5px 16px; font-weight:normal; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_bullet2.gif) left no-repeat ; }
 #addExistingAccount DIV.information DIV.listContentContainer DIV.textContainer { width:63%; height:22px; margin:5px 30px 5px 0; padding:0; font-weight:bold; float:right; float:left; }
 #addExistingAccount DIV.information DIV.listContentContainer DIV.listContainer02 { width:95%; height:auto; font-size:12px; margin:1% 0 0 2%; color:#0099CC; text-align:center; line-height:12px; }
 
@@ -258,29 +258,29 @@ P { margin:0; padding:0; float:left; }
 #RecruitFriend DIV.information DIV.stepContainer DIV.title { width:93%; height:auto; margin:0 7px; padding:0; font-weight:bold; font-size:13px; color:#FFF; text-align:left; }
 #RecruitFriend DIV.information DIV.stepContainer DIV.detail { width:93%; height:auto; margin:0 7px; padding:0; font-size:12px; color:#CCCCCC; text-align:left; }
 #RecruitFriend DIV.information DIV.stepContainer DIV.moreBtn { width:93%; height:auto; margin:0 7px; padding:0; text-align:right; }
-#RecruitFriend DIV.information DIV.arrowContainer { width:3%; height:169px; margin:0; padding:0; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_Arrow.png) center no-repeat; }
+#RecruitFriend DIV.information DIV.arrowContainer { width:3%; height:169px; margin:0; padding:0; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_Arrow.png) center no-repeat; }
 #RecruitFriend DIV.information DIV.selectTitleContainer { width:99%; height:auto; margin:0 2px; padding:0; font-size:12px; font-family:Arial, Helvetica, sans-serif; font-weight:bold; border:solid 1px #666; -webkit-border-radius:4px; -moz-border-radius:4px; border-radius:4px; background:#0c0c0c; -webkit-box-shdow: #000 0 0 7px; -moz-box-shadow: #000 0 0 7px; box-shadow: #000 0 0 7px; behavior:url(../scripts/PIE.htc); }
-#RecruitFriend DIV.information DIV.selectTitleContainer DIV.title { width:95%; height:17px; margin:10px 0 0 10px; padding:0 0 0 15px; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/Career_Bullet01.png) center left no-repeat; color:#CCCCCC; }
+#RecruitFriend DIV.information DIV.selectTitleContainer DIV.title { width:95%; height:17px; margin:10px 0 0 10px; padding:0 0 0 15px; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/Career_Bullet01.png) center left no-repeat; color:#CCCCCC; }
 #RecruitFriend DIV.information DIV.selectTitleContainer DIV.iconBlank { width:6%; height:100px; }
 #RecruitFriend DIV.information DIV.selectTitleContainer DIV.iconContainer { width:118px; height:112px; margin:0; padding:0; text-align:center; }
 #RecruitFriend DIV.information DIV.selectTitleContainer DIV.iconContainer DIV.gameTitle { width:100%; height:30px; line-height:14px; }
 #RecruitFriend DIV.information DIV.selectTitleContainer DIV.iconContainer A { width:118px; height:112px; display:block; color:#FFF; }
-#RecruitFriend DIV.information DIV.selectTitleContainer DIV.iconContainer A:hover { width:118px; height:112px; display:block; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/icon_bg.png) center top no-repeat; color:#00CCFF; }
+#RecruitFriend DIV.information DIV.selectTitleContainer DIV.iconContainer A:hover { width:118px; height:112px; display:block; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/icon_bg.png) center top no-repeat; color:#00CCFF; }
 #RecruitFriend DIV.information DIV.selectTitleContainer DIV.bannerContainer { width:160px; height:90px; margin:0 0 0 12px; padding:0; background-color:#FF0000; }
 #RecruitFriend DIV.information DIV.selectTitleContainer DIV.urlContainer { width:95%; height:autox; margin:0 0 10px 10px; padding:0; }
 #RecruitFriend DIV.information DIV.selectTitleContainer DIV.urlContainer DIV.urlTitle { width:10%; height:20px; margin:0; padding:0; font-size:12px; text-align:center; }
 #RecruitFriend DIV.information DIV.selectTitleContainer DIV.urlContainer DIV.urlDetail { width:75%; height:20px; margin:0; padding:0; text-align:left; }
 #RecruitFriend DIV.information DIV.selectTitleContainer DIV.urlContainer DIV.urlBtn { width:10%; height:17px; margin:0 0 0 20px; padding:0; line-height:16px; font-size:10px; text-align:center; border:solid 1px #999999; -webkit-border-radius:4px; -moz-border-radius:4px; border-radius:4px; -webkit-box-shdow: #000 0 0 7px; -moz-box-shadow: #000 0 0 7px; box-shadow: #000 0 0 7px; behavior:url(../scripts/PIE.htc); background:#0c0c0c; }
 #RecruitFriend DIV.information DIV.selectTitleContainer DIV.urlContainer DIV.urlBtn:hover { width:10%; height:17px; margin:0 0 0 20px; padding:0; font-size:10px; text-align:center; border:solid 1px #00CCFF; -webkit-border-radius:4px; -moz-border-radius:4px; border-radius:4px; background:#333333; -webkit-box-shdow: #00a8ff 0 0 7px; -moz-box-shadow: #00a8ff 0 0 7px; box-shadow: #00a8ff 0 0 7px; behavior:url(../scripts/PIE.htc); }
-#RecruitFriend DIV.information DIV.selectTitleContainer DIV.mailContainer { width:43%; height:20px; margin:20px 0 10px 100px; padding:0; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_Arrow03.png) center right no-repeat; }
+#RecruitFriend DIV.information DIV.selectTitleContainer DIV.mailContainer { width:43%; height:20px; margin:20px 0 10px 100px; padding:0; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_Arrow03.png) center right no-repeat; }
 #RecruitFriend DIV.information DIV.selectTitleContainer DIV.mailContainer A { color:#FFF; }
 #RecruitFriend DIV.information DIV.selectTitleContainer DIV.mailContainer A:hover { color:#00CCFF; }
-#RecruitFriend DIV.information DIV.selectTitleContainer DIV.mailThumbnail { width:161px; height:69px; margin:0 0 0 15px; padding:0; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_mail.png) center no-repeat; }
+#RecruitFriend DIV.information DIV.selectTitleContainer DIV.mailThumbnail { width:161px; height:69px; margin:0 0 0 15px; padding:0; background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_mail.png) center no-repeat; }
 #RecruitFriend DIV.information DIV.selectTitleContainer DIV.mailThumbnail A { width:100%; height:100%; display:block; }
-#RecruitFriend DIV.information DIV.selectTitleContainer DIV.mailThumbnail:hover { width:161px; height:69px; display:block;  background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_mail02.png) center no-repeat; }
+#RecruitFriend DIV.information DIV.selectTitleContainer DIV.mailThumbnail:hover { width:161px; height:69px; display:block;  background:url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_mail02.png) center no-repeat; }
 #RecruitFriend DIV.information DIV.logoContainer { width:99%; height:170px; margin:0 3px; padding:0; }
 
-.sendingEmailContainer { width:380px; height:140px; border:1px solid #999; padding:10px; margin:0; background:#0c0c0c url(https://cdn.statically.io/gh/n-25/public/Live/images_br/Sub/mc_mail.png) bottom right no-repeat; } /* FRlink */
+.sendingEmailContainer { width:380px; height:140px; border:1px solid #999; padding:10px; margin:0; background:#0c0c0c url(https://cdn.statically.io/gh/n-25/public/Live/images_br/sub/mc_mail.png) bottom right no-repeat; } /* FRlink */
 .sendingEmailContainer DIV { float:left; } /* FRlink */
 .sendingEmailContainer DIV.name { width:100px;; height:22px; margin:0; padding:0; font-size:12px; text-align:center; font-weight:bold; } /* FRlink */
 .sendingEmailContainer DIV.field { width:270px; height:22px; margin:0; padding:0; } /* FRlink */
