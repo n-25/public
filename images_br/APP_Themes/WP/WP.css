@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin:0px;
+	background-image: url(images/bg.jpg);
+	background-color: #b8c8db;
+	background-position:center top;
+	background-repeat: no-repeat;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#FFFFFF;
+	line-height: 17px;
+}

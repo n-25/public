@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* Branding Bar */
+a {outline : none;}
+a img {outline : none;}
+img {border : 0;}
+#_Topbar {
+	background:url(https://www.warpportalbr.com/brandingbar_new/images/bg_bbar.png) top center repeat-x;
+	width:100%;
+	height:56px;
+	padding:0;
+	margin:0;
+	top:0;
+	left:0;
+	z-index:999;
+	position:absolute;
+	clear:both;
+}
+#_LeftPiece {
+	background:url(https://www.warpportalbr.com/brandingbar_new/images/bg_leftPiece.png) top center no-repeat;
+	width:100%;
+	height:56px;
+	margin:0;
+	padding:0;
+	top:0;
+	left:0;
+	z-index:999;
+	position:absolute;
+}
+
+._wp { background-image:url(https://www.warpportalbr.com/brandingbar_new/images/btn_wp.png) }
+._gam { background-image:url(https://www.warpportalbr.com/brandingbar_new/images/btn_gam.gif) }
+._frm { background-image:url(https://www.warpportalbr.com/brandingbar_new/images/btn_frm.gif) }
+._spt { background-image:url(https://www.warpportalbr.com/brandingbar_new/images/btn_spt.gif) }
+._pup { background-image:url(https://www.warpportalbr.com/brandingbar_new/images/btn_pup.gif) }
+._reg { background-image:url(https://www.warpportalbr.com/brandingbar_new/images/btn_reg.gif) }
+._mya { background-image:url(https://www.warpportalbr.com/brandingbar_new/images/btn_mya.gif) }
+._flag { background-image:url(https://www.warpportalbr.com/brandingbar_new/images/flag_b.jpg) }
+
+._multi_usa { background-image:url(https://www.warpportalbr.com/brandingbar_new/images/btn_multi_usa.gif) }
+._multi_spn { background-image:url(https://www.warpportalbr.com/brandingbar_new/images/btn_multi_spn.gif) }
+._multi_brz { background-image:url(https://www.warpportalbr.com/brandingbar_new/images/btn_multi_brz.gif) }
+._multi_fra { background-image:url(https://www.warpportalbr.com/brandingbar_new/images/btn_multi_fra.gif) }
+._multi_pol { background-image:url(https://www.warpportalbr.com/brandingbar_new/images/btn_multi_pol.gif) }
+._multi_ger { background-image:url(https://www.warpportalbr.com/brandingbar_new/images/btn_multi_ger.gif) }
+._multi_tur { background-image:url(https://www.warpportalbr.com/brandingbar_new/images/btn_multi_tur.gif) }
+._multi_ind { background-image:url(https://www.warpportalbr.com/brandingbar_new/images/btn_multi_ind.gif) }
+._multi_kor { background-image:url(https://www.warpportalbr.com/brandingbar_new/images/btn_multi_kor.gif) }
+
+	
+#_NavCont { position:relative; margin:0 auto; width:988px; height:auto; }
+#_NavCont A._navImg { display:block; position:relative; z-index:998; float:left; width:100%; height:100%; margin:0; padding:0; background-position:0 0; background-repeat:no-repeat; }
+#_NavCont A:hover._navImg { background-position:0 100%; } 
+#_NavCont DIV._wplogo { float:left; width:289px; height:64px; margin:0; padding:0; }
+#_NavCont DIV._multiL { float:left; width:699px; height:27px; margin:0; padding:0; }
+#_NavCont DIV._multiL DIV._text { float:right; width:174px; height:10px; margin:9px 5px 0 0; padding:0; background:url(https://www.warpportalbr.com/brandingbar_new/images/img_dsc_multi.gif) 0 0 no-repeat; }
+#_NavCont DIV._multiL DIV._flag { float:right; width:28px; height:27px; margin:0; padding:0; }
+#_NavCont DIV._navItem { float:left; height:23px; margin:27px 15px 0 0; padding:0; }
+#_NavCont DIV._clock { float:right; width:102px; height:16px; margin-top:4px; padding:2px 4px 0 0; font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#B0B0B0; text-align:right; background:url(https://www.warpportalbr.com/brandingbar_new/images/icon_clock.gif) 0 50% no-repeat; font-weight:bold; }
+#_NavCont DIV._clock SPAN { float:right; width:auto; height:auto; background:none; }
+
+/*--- gamelist item default CSS ---*/
+#_NavCont DIV._gamelist { visibility:hidden; position:absolute; z-index:997; top:22px; left:280px; width:320px; height:230px; }
+#_NavCont DIV._gamelist UL._subnav { position:absolute; z-index:996; top:28px; left:0; width:320px; margin:0; padding:0;  border-top:none;  -webkit-box-shadow:#000 0px 5px 5px; -moz-box-shadow:#000 0px 5px 5px; box-shadow:#000 0px 5px 5px; list-style:none; }
+#_NavCont DIV._gamelist UL._subnav LI { margin:0; padding:0; width:200px; height:24px; border-bottom:1px solid #7F7F7F; }
+#_NavCont DIV._gamelist UL._subnav LI A { width:200px; height:100%; display:block; padding:0; margin:0; background:url(https://www.warpportalbr.com/brandingbar_new/images/bg_gamelist.gif) 0 0 no-repeat; font-family:Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; text-decoration:none; }
+#_NavCont DIV._gamelist UL._subnav LI A:hover { background:url(https://www.warpportalbr.com/brandingbar_new/images/bg_gamelist.gif) 0 100% no-repeat; }
+#_NavCont DIV._gamelist UL._subnav LI A DIV._title { width:185px; height:14px; margin:0; padding:5px 0 0 13px; color:#333; cursor:pointer; }
+#_NavCont DIV._gamelist UL._subnav LI A:hover DIV._title { width:180px; height:14px; margin:0; padding:5px 0 0 18px; color:#00F0FF; cursor:pointer; }
+#_NavCont DIV._gamelist UL._subnav LI._detail { position:absolute; top:0; left:200px; width:120px; height:100%; border-bottom:none; }
+#_NavCont DIV._gamelist UL._subnav LI._detail A._linkAD { width:100%; height:100%; background:#000; }
+#_NavCont DIV._gamelist UL._subnav LI._topShadow { position:absolute; top:0; left:-1px; width:322px; height:4px; border-bottom:none; background:url(https://www.warpportalbr.com/brandingbar_new/images/bg_topShadow.png) top repeat-x; z-index:999; }
+
+/*--- Temp Login will be reomove since WP 1.5 version ---*/
+#_NavCont DIV.login { float:right; width:auto; height:23px; margin:0; }
+#_NavCont DIV.login DIV.nickname { float:right; width:140px; height:14px; margin:4px 0; padding:0; color:#FFF; text-align:right; }
+#_NavCont DIV.login DIV.btn_logout { float:right; width:25px; height:23px; margin:0 2px 0 0; padding:0; }
+#_NavCont DIV.login DIV.btn_login { float:right; width:104px; height:23px; margin:0 2px 0 0; padding:0; }
+#_NavCont DIV.fb { float:right; width:34px; height:23px; margin:0 5px 0 0; padding:0; }
+#_NavCont DIV.login SPAN { float:right; width:auto; height:auto; margin:0; padding:0; }

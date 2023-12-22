@@ -1,0 +1,426 @@
+@charset "utf-8";
+/* CSS Document */
+
+html { 
+	overflow:auto; /*fix IE7 Error*/ 
+	scrollbar-face-color: #13171c;
+	scrollbar-arrow-color: #4c5a6b;
+	scrollbar-highlight-color: #4c5a6b;
+	scrollbar-3dlight-color: #13171c;
+	scrollbar-shadow-color: #4c5a6b;
+	scrollbar-darkshadow-color: #13171c;
+	scrollbar-track-color: #2c3745;
+}
+body { margin:0; padding:0; }
+IMG { border:0; }
+
+a:link{ color:#00fff0; text-decoration:none; }
+a:visited{ color:#00fff0; text-decoration:none; }
+a:hover{ color:#00fff0; text-decoration:underline; }
+a:active{ text-decoration:none; }
+
+
+#wrapContainer{ width:100%; height:auto; position:absolute; top:0px; left:0px; z-index:6; padding:10px 0px; }
+#wrap { margin:0px auto; width:988px; height:auto; position:relative; }
+
+#Navigtion {
+	background-image:url(../images/master/bg_navi.png);
+	background-position:top;
+	background-repeat:no-repeat;
+	margin:0px;
+	padding:50px 0px 0px 0px;
+	float:left;
+	width:246px;
+	height:573px;
+}
+#Navigtion UL { list-style:none; float:left; padding:0px; margin:0px auto }
+#Navigtion LI { width:246px; height:18px; float:left; margin:0px }
+#Navigtion LI.head { width:246px; height:21px; float:left; margin:0px }
+#Navigtion LI.blank { width:246px; height:15px; float:left; margin:0px }
+#Navigtion A { display:block; }
+#Navigtion A.sub:hover { background-color:#4a666a;}
+#Navigtion A:hover,
+#Navigtion A:active,
+#Navigtion A:link,
+#Navigtion A:visited{}
+
+/* Start content layout CSS */
+#contentContainer { margin:0px 0px 0px 14px; padding:51px 0px 20px 0px; float:left; width:728px; height:auto; } /* 나중에 줄여야함 */
+#LoginField { width:728px; height:80px; color:#6F6; float:left; margin:40px 0 0 14px; background-color:#0C0; }
+#contentBG { width:728px; height:auto; background-image:url(../images/sub/bg_contents.gif); background-repeat:repeat; }
+#content { width:688px; height:auto; min-height:460px; background-image:url(../images/sub/mc_contentsB.png); background-position:bottom; background-repeat:no-repeat; margin:0px; padding:0px 20px 20px 20px; }
+#contentNews { width:728px; height:auto; min-height:460px; background-image:url(../images/sub/mc_contentsB.png); background-position:bottom; background-repeat:no-repeat; margin:0px; padding:0px 0px 20px 0px; }
+#contentNews TABLE IMG { max-width:540px; height:auto; }
+#content .contentWraper { margin:0px; padding:0px 20px; border:2px solid #999999; }
+#content .contentWraperGamelist { margin:0px; padding:0px; border:2px solid #999999; } /* This border Only for GameList in SubPage */
+.sitemap { font-size:12px; font-family:Arial, Helvetica, sans-serif; color:#999999; text-align:right; }
+#content .subTitle { background:url(../images/sub/bg_subtitle.png); background-position:left bottom; background-repeat:no-repeat; }
+#contentBottom { width:728px; height:23px; background-image:url(../images/sub/mc_contentsB_R.png); }
+/* End content layout CSS */
+
+/* Start content Header */
+#contentHeader { width:728px; height:50px; }
+#contentHeader.gamelist { background-image:url(../images/sub/mc_header_gamelist.png); }
+#contentHeader.gameAccounts { background-image:url(../images/sub/mc_header_gameAccounts.png); }
+#contentHeader.AccountInformation { background-image:url(../images/sub/mc_header_accInfo.png); }
+#contentHeader.findIDPW { background-image:url(../images/sub/mc_header_findIDPW.png); }
+#contentHeader.login { background-image:url(../images/sub/mc_header_login.png); }
+#contentHeader.register{ background-image:url(../images/sub/mc_header_register.png); }
+#contentHeader.announcements{ background-image:url(../images/sub/mc_header_announcements.png); }
+#contentHeader.events{ background-image:url(../images/sub/mc_header_events.png); }
+#contentHeader.press{ background-image:url(../images/sub/mc_header_press.png); }
+#contentHeader.oops{ background-image:url(../images/sub/mc_header_oops.png); }
+#contentHeader.forgotPW{ background-image:url(../images/sub/mc_header_forgotPW.png); }
+#contentHeader.download{ background-image:url(../images/sub/mc_header_download.png); }
+/* End content Header */
+#loginBG {
+	background-image:url(../images/sub/cha_login.png);
+	background-position:right top;
+	background-repeat:no-repeat;
+	height:auto;
+}
+#registrationCompleteBG {
+	background-image:url(../images/sub/cha_registrationComplete.png);
+	background-position:right;
+	background-repeat:no-repeat;
+	height:auto;
+}
+#welcomeBG {
+	background-image:url(../images/sub/cha_welcome.png);
+	background-position:right;
+	background-repeat:no-repeat;
+	height:auto;
+	font-size: 18px;
+	font-weight:bold;
+	color: #00FFFF;
+	padding: 150px 0px 100px 0px;
+	text-align:center;
+}
+#oopsBG {
+	background-image:url(../images/sub/cha_oops.png);
+	background-position:right;
+	background-repeat:no-repeat;
+	height:auto;
+	padding:0px;
+	color:#00FFFF;
+	font-size:12px;
+}
+.quickIcon {
+	text-align:center;
+}
+.quickIcon a:link,
+.quickIcon a:visited,
+.quickIcon a:active{ text-decoration:none; }
+.quickIcon a:hover{ color:#ebebeb; text-decoration:underline; }
+
+
+
+/* Start GameList In Subpage */
+.gameIconRORE {
+	width:106px;
+	height:117px;
+	margin:15px 10px 0px 15px;
+	padding:0px;
+	float:left;
+	background-image:url(../images/gamelist/thumb_rore_GAccInfo.png);
+	background-repeat:no-repeat;
+}
+.gameInformationFieldRORE {
+	width:684px;
+	height:auto;
+	float:left;
+	margin:5px 0px;
+	padding:0px;
+	background-image:url(../images/gamelist/rore_main.png);
+	background-position:right;
+	background-repeat:no-repeat;
+}
+
+.gameIconLODOSS {
+	width:106px;
+	height:117px;
+	margin:15px 10px 0px 15px;
+	padding:0px;
+	float:left;
+	background-image:url(../images/gamelist/thumb_lodoss_GAccInfo.png);
+	background-repeat:no-repeat;
+}
+.gameInformationFieldLODOSS {
+	width:684px;
+	height:auto;
+	float:left;
+	margin:5px 0px;
+	padding:0px;
+	background-image:url(../images/gamelist/lodoss_main.png);
+	background-position:right;
+	background-repeat:no-repeat;
+}
+
+.gameIconMA {
+	width:106px;
+	height:117px;
+	margin:15px 10px 0px 15px;
+	padding:0px;
+	float:left;
+	background-image:url(../images/gamelist/thumb_ma_GAccInfo.png);
+	background-repeat:no-repeat;
+}
+.gameInformationFieldMA {
+	width:684px;
+	height:auto;
+	float:left;
+	margin:5px 0px;
+	padding:0px;
+	background-image:url(../images/gamelist/ma_main.png);
+	background-position:right;
+	background-repeat:no-repeat;
+}
+
+.gameIconRO {
+	width:106px;
+	height:117px;
+	margin:15px 10px 0px 15px;
+	padding:0px;
+	float:left;
+	background-image:url(../images/gamelist/thumb_ro_GAccInfo.png);
+	background-repeat:no-repeat;
+}
+.gameInformationFieldRO {
+	width:684px;
+	height:auto;
+	float:left;
+	margin:5px 0px;
+	padding:0px;
+	background-image:url(../images/gamelist/ro_main.png);
+	background-position:right;
+	background-repeat:no-repeat;
+}
+.gameIconRQ {
+	width:106px;
+	height:117px;
+	margin:15px 10px 0px 15px;
+	padding:0px;
+	float:left;
+	background-image:url(../images/gamelist/thumb_rq_GAccInfo.png);
+	background-repeat:no-repeat;
+}
+.gameInformationFieldRQ {
+	width:684px;
+	height:auto;
+	float:left;
+	margin:5px 0px;
+	padding:0px;
+	background-image:url(../images/gamelist/rq_main.png);
+	background-position:right;
+	background-repeat:no-repeat;
+}
+.gameIconROSE{
+	width:106px;
+	height:117px;
+	margin:15px 10px 0px 15px;
+	padding:0px;
+	float:left;
+	background-image:url(../images/gamelist/thumb_rose_GAccInfo.png);
+	background-repeat:no-repeat;
+}
+.gameInformationFieldROSE {
+	width:684px;
+	height:auto;
+	float:left;
+	margin:5px 0px;
+	padding:0px;
+	background-image:url(../images/gamelist/rose_main.png);
+	background-position:right;
+	background-repeat:no-repeat;
+}
+.gameIconDR{
+	width:106px;
+	height:117px;
+	margin:15px 10px 0px 15px;
+	padding:0px;
+	float:left;
+	background-image:url(../images/gamelist/thumb_dr_GAccInfo.png);
+	background-repeat:no-repeat;
+}
+.gameInformationFieldDR {
+	width:684px;
+	height:auto;
+	float:left;
+	margin:5px 0px;
+	padding:0px;
+	background-image:url(../images/gamelist/dr_main.png);
+	background-position:right;
+	background-repeat:no-repeat;
+}
+.gameIconFS{
+	width:106px;
+	height:117px;
+	margin:15px 10px 0px 15px;
+	padding:0px;
+	float:left;
+	background-image:url(../images/gamelist/thumb_ch01_GAccInfo.png);
+	background-repeat:no-repeat;
+}
+.gameInformationFieldFS {
+	width:684px;
+	height:auto;
+	float:left;
+	margin:5px 0px;
+	padding:0px;
+	background-image:url(../images/gamelist/fs_main.png);
+	background-position:right;
+	background-repeat:no-repeat;
+}
+.gameIconED{
+	width:106px;
+	height:117px;
+	margin:15px 10px 0px 15px;
+	padding:0px;
+	float:left;
+	background-image:url(../images/gamelist/thumb_ed_GAccInfo.png);
+	background-repeat:no-repeat;
+}
+.gameInformationFieldED {
+	width:684px;
+	height:auto;
+	float:left;
+	margin:5px 0px;
+	padding:0px;
+	background-image:url(../images/gamelist/ed_main.png);
+	background-position:right;
+	background-repeat:no-repeat;
+}
+.gameIconCC{
+	width:106px;
+	height:117px;
+	margin:15px 10px 0px 15px;
+	padding:0px;
+	float:left;
+	background-image:url(../images/gamelist/thumb_ro2_GAccInfo.png);
+	background-repeat:no-repeat;
+}
+.gameInformationFieldCC {
+	width:684px;
+	height:auto;
+	float:left;
+	margin:5px 0px;
+	padding:0px;
+	background-image:url(../images/gamelist/cc_main.png);
+	background-position:right;
+	background-repeat:no-repeat;
+}
+.gamelistBtnField {
+	width:250px;
+	height:auto;
+	margin:95px 0px 0px 89px;
+	padding:0px;
+	float:left;
+}
+.btn_ma_gosite {
+	float:left;
+	margin:0 0 0 125px;
+}
+.gamelistBtnField UL {
+	list-style:none;
+	float:left;
+	padding:0;
+	margin:0 auto;
+}
+.gamelistBtnField LI {
+	width:110px;
+	height:25px;
+	float:left;
+	margin:0px 7px;
+}
+.gameScreenshotField {
+	width:684px;
+	height:auto;
+	float:left;
+	margin:5px 0px;
+	padding:0px;
+}
+/* End GameList In Subpage */
+
+/* start fonts & textField & padding CSS */
+H1 { font-size:18px; height:20px; margin:0; font-weight:bold; color:#00ccff; padding:0px 0px 0px 10px; background-image:url(../images/sub/mc_bullet.gif); background-position:left; background-repeat:no-repeat; }
+H2 { font-size:13px; line-height:24px; margin:0px; color:#00fff0; font-weight:bold; padding:0px 0px 0px 12px; background-image:url(../images/sub/mc_bullet3.png); background-position:left; background-repeat:no-repeat; }
+H3 { font-size:12px; line-height:20px; margin:0px; color:#FFFFFF; padding:5px 0px 5px 16px; font-weight:normal; background-image:url(../images/sub/mc_bullet2.gif); background-position:left; background-repeat:no-repeat; }
+H4 { font-size:12px; line-height:35px; margin:0px; color:#FFFFFF; padding:5px 0px 5px 30px; font-weight:normal; background-image:url(../images/sub/mc_bullet_Title.png); background-position:left; background-repeat:no-repeat; }
+H5 { font-size:14px; line-height:20px; margin:0px 10px 0px 0px; color:#FFFFFF; padding:5px 0px 5px 40px; font-weight:bold; background-image:url(../images/sub/mc_bullet_Title2.png); background-position:left; background-repeat:no-repeat; }
+H6 { font-size:12px; font-weight:bold; margin:0px; color:#ebebeb; padding:5px 5px 20px 5px;}
+P {	font-size:12px; margin:0px; color:#FFFFFF; padding:10px 20px 10px 30px; }
+.tableTitle { Height:25px; text-align:center; background-color:#000000; opacity:0.6; filter:alpha(opactiy=60); color:#00CCFF; font-weight:bold; }
+.white_01 { color:#FFFFFF; }
+.white_02 { font-size:16px; color:#FFFFFF; font-weight:bold; }
+.grey_01 { color:#999999; }
+.grey_02 { color:#999999; font-weight:bold; }
+.grey_03 { font-size:10px; color:#999999; line-height:10px; margin:0px; padding:0px 0px 0px 15px; vertical-align:top; }
+.blue_01 { color:#00CCFF; font-weight:bold; display:inline; }
+.red_01 { color:#FF0000; }
+.error01 { color:#FF0000; font-size:9px; margin:0; padding:0; line-height:6px;}
+.textField_01 {
+	background-color: #FFFFFF;
+	width:180px;
+	height:18px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#003672;
+	padding: 2px 3px 0px 3px;
+	margin:0px;
+	border-width: 1px;
+	border-style: solid;
+	filter: Alpha(Opacity=50);
+	opacity: 0.5;
+}
+.textField_02 {
+	background-color: #95999f;
+	width:188px;
+	height:22px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#1d2936;
+	padding:0px;
+	margin:0px;
+	border-width: 1px;
+	border-style: solid;
+}
+
+.small_cap { display:block; float:left; width:184px; height:106px; padding:16px 9px 12px 9px; border:1px solid #262626; overflow:hidden; white-space:nowrap; }
+.padding01 { padding-top:10px; }
+.padding02 { padding-top:20px; }
+.padding03 { padding-top:30px; }
+/* end fonts & textField & padding CSS */
+
+.strength0 { background-image:url(../images/sub/pwbar0.gif); width:150px; height:15px }
+.strength1 { background-image:url(../images/sub/pwbar1.gif); width:150px; height:15px }
+.strength2 { background-image:url(../images/sub/pwbar2.gif); width:150px; height:15px }
+.strength3 { background-image:url(../images/sub/pwbar3.gif); width:150px; height:15px }
+.strength4 { background-image:url(../images/sub/pwbar4.gif); width:150px; height:15px }
+.strength5 { background-image:url(../images/sub/pwbar5.gif); width:150px; height:15px }
+
+.gatewayBody {
+	background-image:url(../images/sub/bg_gatewayBilling.jpg);
+	background-color:#000000;
+	background-repeat:no-repeat;
+}
+
+#gatewayContainer {
+	width:500px;
+	height:auto;
+	margin:100px 0px 0px 0px;
+}
+
+#footer {
+	margin:0px auto;
+	padding:0px;
+	width:988px;
+	height:auto;
+	clear:both;
+	color:#666666;
+	background-image:url(../images/footer/mc_footerline.png);
+	background-repeat:no-repeat;
+}
+#footer A:hover { color:#999999;}
+#footer A:active,
+#footer A:link,
+#footer A:visited { color:#666666; }
